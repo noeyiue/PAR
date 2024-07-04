@@ -28,5 +28,5 @@ This Jupyter notebook is used to predict test results. The prediction data will 
 ## Files
 
 ### `group_and_evaluation.ipynb`
-This Jupyter notebook is used to evaluation a model. Evaluation result will be saved in `performance_metrics.csv`. And all confusion matrix will be saved in `./confusion_matrix_{model_name}/`.
+This Jupyter notebook is used to evaluation a model. Evaluation result will be saved in `./performance_metrics.csv`. And all confusion matrix will be saved in `./confusion_matrix_{model_name}/`.
 
