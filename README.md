@@ -24,4 +24,10 @@ This Jupyter notebook is used to train a model. You can change the model to your
 4. **Run the Notebook:**
     Execute the cells in the notebook sequentially to start training the model. Ensure you have all dependencies installed and your data properly set up.
 
-After finish training model with save to './{model_name}.pth
+After finish training model with save to './{model_name}.pth'
+
+
+## Files
+
+### `prob-predictions.ipynb`
+This Jupyter notebook is used to predict a model. The predict data is save in 'prob_predictions.csv'
