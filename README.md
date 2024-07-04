@@ -9,25 +9,24 @@ This Jupyter notebook is used to train a model. You can change the model to your
 
 ## Training Instructions
 
-1. **Open the Notebook:**
-   Open the `Train_mobilenet_v3_small_1.ipynb` file in Jupyter Notebook or Jupyter Lab.
-
-2. **Set the Model Name:**
+1. **Set the Model Name:**
    Locate the `TrainingConfig` class or dictionary in the notebook. Find the `MODEL_NAME` attribute.
 
-3. **Change the Model Name:**
-   Change `TrainingConfig.MODEL_NAME` to the name of the PyTorch model you want to use. For example:
+2. **Change the Model Name:**
+   Change `TrainingConfig.MODEL_NAME` to the name of the PyTorch model you want to use.
    ```python
    class TrainingConfig:
-       MODEL_NAME = "resnet50"  # Change this to your desired model
+       MODEL_NAME = "mobilenet_v3_small"
 
-4. **Run the Notebook:**
-    Execute the cells in the notebook sequentially to start training the model. Ensure you have all dependencies installed and your data properly set up.
-
-After finish training model with save to './{model_name}.pth'
-
+After finish training, model will be saved in `./{model_name}.pth`.
 
 ## Files
 
 ### `prob-predictions.ipynb`
-This Jupyter notebook is used to predict a model. The predict data is save in 'prob_predictions.csv'
+This Jupyter notebook is used to predict test results. The prediction data will be saved in `./prob_predictions.csv`.
+
+## Files
+
+### `group_and_evaluation.ipynb`
+This Jupyter notebook is used to evaluation a model. Evaluation result will be saved in `performance_metrics.csv`. And all confusion matrix will be saved in `./confusion_matrix_{model_name}/`.
+
