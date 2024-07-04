@@ -4,7 +4,7 @@ This repository contains the necessary files to train models for multi-label cla
 
 ## Files
 
-### `Train_mobilenet_v3_small_1.ipynb`
+### `Train_{model_name}.ipynb`
 This Jupyter notebook is used to train a model. You can change the model to your desired PyTorch model by modifying the configuration.
 
 ## Training Instructions
