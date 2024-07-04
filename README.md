@@ -13,7 +13,7 @@ This Jupyter notebook is used to train a model. You can change the model to your
    Locate the `TrainingConfig` class or dictionary in the notebook. Find the `MODEL_NAME` attribute.
 
 2. **Change the Model Name:**
-   Change `TrainingConfig.MODEL_NAME` to the name of the PyTorch model you want to use.
+   Change `TrainingConfig.MODEL_NAME` to the name of the PyTorch model you want to use. [Find models at https://pytorch.org/vision/stable/models.html]
    ```python
    class TrainingConfig:
        MODEL_NAME = "mobilenet_v3_small"
